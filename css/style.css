@@ -1,0 +1,211 @@
+/* satrt Glopal rules */
+
+:root {
+    --main-color:rgb(231, 245, 248);
+    --text-color:#2193b0;
+}
+.shadow-3d {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.09);
+}
+
+.bg-main {
+  background: #2193b0;
+}
+
+.text-main{
+    color: var(--text-color);
+}
+
+
+
+/* end Glopal rules */
+
+/* start nav */
+nav  .navbar-brand:hover , nav  .navbar-brand:focus  {
+    color: var(--text-color);
+}
+
+
+.img-width {
+  width: 50px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+
+nav .img-width:hover {
+    scale: 1.1;
+    border-radius: 25% !important;
+    -webkit-border-radius: 25% !important;
+    -moz-border-radius: 25% !important;
+    -ms-border-radius: 25% !important;
+    -o-border-radius: 25% !important;
+}
+
+
+nav .nav-pills .nav-link {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+nav .nav-pills .nav-link.active {
+  background-color: transparent;
+  scale: 1.25;
+  font-weight: bold;
+  color: var(--text-color);
+  transform: translateY(-1px);
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  -o-transform: translateY(-1px);
+  text-shadow: 1px 1px rgba(40, 39, 39, 0.09);
+}
+
+/* end nav */
+
+/* start home */
+.cv {
+  transition: all 0.5s ;
+  color: var(--main-color);
+  -webkit-transition: all 0.5s ;
+  -moz-transition: all 0.5s ;
+  -ms-transition: all 0.5s ;
+  -o-transition: all 0.5s ;
+}
+.cv:hover {
+  background: #6dd5ed;
+  color: #125465;
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  box-shadow: 1px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+#home .icon {
+  width: 2.5rem;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  color: var(--main-color);
+}
+
+#home .icon:hover {
+  background: #6dd5ed;
+  color: #125465;
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  box-shadow: 1px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* end home */
+/* start portfolio */
+.card{
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.card img {
+    aspect-ratio: 16/9;
+}
+
+.img-fluid .black-wall {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    right: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+
+.card .img-fluid {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.card:hover{
+box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .img-fluid {
+    scale : 1.25;
+    rotate: 5deg;
+
+}
+
+.card:hover .img-fluid .black-wall {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    right: 0;
+    left: 0;
+    opacity: 1;
+}
+.card .img-fluid .black-wall .focus {
+    rotate: -5deg;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+
+
+.text{
+    text-wrap: balance;
+}
+
+
+
+/* end portfolio */
+
+
+@media screen and (max-width:992px) {
+    .social , .cv {
+        margin: auto;
+        
+    }
+
+    .social{
+        transform: translateX(5px);
+        -webkit-transform: translateX(5px);
+        -moz-transform: translateX(5px);
+        -ms-transform: translateX(5px);
+        -o-transform: translateX(5px);
+    }
+
+    
+
+}
+
+@media screen and (min-width:768px){
+    
+}
