@@ -125,7 +125,6 @@ function displayProjects() {
 
 displayProjects()
 
-console.log("a7a");
 
 
 
