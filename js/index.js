@@ -80,6 +80,14 @@ let container = [
         h4 : "weather App",
         tech : "html + css + bootstrap , JavaScript" , 
         date : "Dec-2023"
+    },
+    {
+        link : "https://alihgad.github.io/ToDoList/",
+        image :"./imges/todolist.png",
+        alt : "ToDo list",
+        h4 : "ToDo list",
+        tech : "html + css + bootstrap + sweetalert2 , JavaScript" , 
+        date : "Jan-2024"
     }
 ]
 
