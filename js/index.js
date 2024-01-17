@@ -88,6 +88,14 @@ let container = [
         h4 : "ToDo list",
         tech : "html + css + bootstrap + sweetalert2 , JavaScript" , 
         date : "Jan-2024"
+    },
+    {
+        link : "https://alihgad.github.io/Games/",
+        image :"./imges/games.png",
+        alt : "Games reviews",
+        h4 : "Games reviews",
+        tech : "html + css + bootstrap  , JavaScript" , 
+        date : "Jan-2024"
     }
 ]
 
@@ -123,7 +131,9 @@ function displayProjects() {
     document.querySelector("#projects").innerHTML=cartona;
 }
 
-displayProjects()
+window.addEventListener("load", function(){
+    displayProjects()
+})
 
 
 

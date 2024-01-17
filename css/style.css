@@ -17,7 +17,16 @@
     color: var(--text-color);
 }
 
+::-webkit-scrollbar{
+  background-color: #6597a3;
+  width: 10px ;
+}
 
+::-webkit-scrollbar-thumb{
+  background-color: #1d4049;
+  border: #125465 2px solid;
+  border-radius: 10px;
+}
 
 
 /* end Glopal rules */
@@ -166,6 +175,7 @@ nav .nav-pills .nav-link.active {
   animation: fadein 1s ease-in-out forwards  ;
   -webkit-animation: fadein 1s ease-in-out forwards  ;
 }
+
 @keyframes fadein {
   0%{bottom: -100%;}
   100%{bottom: 0;}
