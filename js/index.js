@@ -94,7 +94,15 @@ let container = [
         image :"./imges/games.png",
         alt : "Games reviews",
         h4 : "Games reviews",
-        tech : "html + css + bootstrap  , JavaScript" , 
+        tech : "html + css + bootstrap  , JavaScript + API" , 
+        date : "Jan-2024"
+    },
+    {
+        link : "https://alihgad.github.io/party/",
+        image :"./imges/party.png",
+        alt : "Party Event",
+        h4 : "Party Event",
+        tech : "html + css + bootstrap  , JavaScript + JQuery" , 
         date : "Jan-2024"
     }
 ]
