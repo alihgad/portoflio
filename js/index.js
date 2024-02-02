@@ -51,7 +51,7 @@ let container = [
     },
     {
         link : "https://alihgad.github.io/CRUDS/",
-        image :"./imges/crud.png",
+        image :"./imges/cruds.png",
         alt : "CRUDS",
         h4 : "CRUDS system",
         tech : "html + css + bootstrap , JavaScript" , 
@@ -113,7 +113,7 @@ let container = [
 function displayProjects() {
  
     let cartona = ""
-    for(let i=0;i<container.length;i++){
+    for(let i=container.length -1;i>=0;i--){
         cartona +=  `<div class="col  ">
                         <a class="text-decoration-none" href=${container[i].link} target="_blank">
                             <div class="card text-capitalize shadow-3d ">
@@ -139,11 +139,51 @@ function displayProjects() {
     document.querySelector("#projects").innerHTML=cartona;
 }
 
+
+
+let reactContainer = [{
+    link : "https://ali-react-app.netlify.app/",
+        image :"./imges/start.png",
+        alt : "start",
+        h4 : "first react app",
+        tech : "html + css + bootstrap  , JavaScript React Js" , 
+        date : "Feb-2024"
+}
+]
+
+function displayReactProjects() {
+ 
+    let cartona = ""
+    for(let i= reactContainer.length-1 ;i >= 0   ;i--){
+        cartona +=  `<div class="col  ">
+                        <a class="text-decoration-none" href=${reactContainer[i].link} target="_blank">
+                            <div class="card text-capitalize shadow-3d ">
+                            <div class="overflow-hidden rounded-top-2">
+                                <div class="img-fluid position-relative  ">
+                                    <div class=" black-wall d-flex justify-content-center align-items-center">
+                                        <p class=" text-white focus   fs-1">click to preview</p>
+                                    </div>
+                                    <img src=${reactContainer[i].image} class="mw-100 " alt=${reactContainer[i].alt}>
+                                </div>
+                            </div>
+                            <div class="card-body ">
+                                <h4 class="text-main" >${reactContainer[i].h4}</h4>
+                                <p class="mb-1">${reactContainer[i].tech}</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">${reactContainer[i].date}</small>
+                            </div>
+                            </div>
+                        </a>
+                    </div>`
+    }
+    document.querySelector("#react").innerHTML=cartona;
+}
+
+
+
 window.addEventListener("load", function(){
     displayProjects()
+    displayReactProjects()
 })
-
-
-
-
 
