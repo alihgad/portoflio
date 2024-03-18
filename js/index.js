@@ -151,7 +151,7 @@ let reactContainer = [{
 },
 {
     link: "https://alifreshcart.000webhostapp.com/",
-    image: "./imges/start.png",
+    image: "./imges/e-commerce.png",
     alt: "fresh cart",
     h4: "E-commerce",
     tech: "html + css + bootstrap  , JavaScript React Js",
