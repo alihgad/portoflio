@@ -194,5 +194,13 @@ function displayReactProjects() {
 window.addEventListener("load", function () {
     displayProjects()
     displayReactProjects()
+    getData()
 })
+
+
+async function  getData (){
+    let data = await fetch('https://server-vert-tau.vercel.app/');
+    let result = await data.json();
+    console.log(result);
+}
 
