@@ -26,14 +26,6 @@ let container = [
         date: "oct-2023"
     },
     {
-        link: "https://alihgad.github.io/fokir/",
-        image: "./imges/fokir.png",
-        alt: "fokir",
-        h4: "fokir template",
-        tech: "native html + css , responsive",
-        date: "oct-2023"
-    },
-    {
         link: "https://alihgad.github.io/DevFolio/",
         image: "./imges/devfolio.png",
         alt: "devfolio",
