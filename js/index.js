@@ -118,8 +118,8 @@
                                 </div>
                             </div>
                             <div class="card-body ">
-                                <h4 class="text-main" >${container[i].heading}</h4>
-                                <p class="mb-1">${container[i].description}</p>
+                                <h4 class="text-main" >${container[i].h4}</h4>
+                                <p class="mb-1">${container[i].tech}</p>
                             </div>
                             <div class="card-footer">
                                 <small class="text-muted">${container[i].date}</small>
