@@ -1,5 +1,5 @@
 
-let containersss = [
+let container = [
     {
         link: "https://alihgad.github.io/kasper/",
         image: "./imges/Kasper.png",
@@ -183,25 +183,10 @@ function displayReactProjects() {
 
 
 
-window.addEventListener("load", async function () {
-    let allData = await getData();
-    let container = []
-    allData?.map((project) => {
-        if (project.type == 'native') {
-            container.push(project)
-        }
-    })
-    displayProjects(container)
-    displayReactProjects()
-})
 
 
-async function getData() {
-    let data = await fetch('http://localhost:3000/projects');
-    let result = await data.json();
-    console.log(result);
-    return result
-}
+
+
 
 
 
