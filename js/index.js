@@ -1,11 +1,11 @@
 
-let container = [
+let containersss = [
     {
         link: "https://alihgad.github.io/kasper/",
         image: "./imges/Kasper.png",
         alt: "Kasper",
         h4: "Kasper template",
-        tech: "native html + css , responsive",
+        tech: " html + css , responsive",
         date: "oct-2022"
     }
     ,
@@ -100,9 +100,9 @@ let container = [
 ]
 
 
+async function displayProjects(container) {
 
 
-function displayProjects() {
 
     let cartona = ""
     for (let i = container.length - 1; i >= 0; i--) {
@@ -118,8 +118,8 @@ function displayProjects() {
                                 </div>
                             </div>
                             <div class="card-body ">
-                                <h4 class="text-main" >${container[i].h4}</h4>
-                                <p class="mb-1">${container[i].tech}</p>
+                                <h4 class="text-main" >${container[i].heading}</h4>
+                                <p class="mb-1">${container[i].description}</p>
                             </div>
                             <div class="card-footer">
                                 <small class="text-muted">${container[i].date}</small>
@@ -143,7 +143,7 @@ let reactContainer = [{
 },
 {
     link: "https://alihgad.github.io/commerce/#/home",
-    image: "./imges/e-commerce.png" ,
+    image: "./imges/e-commerce.png",
     alt: "fresh cart",
     h4: "E-commerce",
     tech: "html + css + bootstrap  ,  React Js",
@@ -183,16 +183,26 @@ function displayReactProjects() {
 
 
 
-window.addEventListener("load", function () {
-    displayProjects()
+window.addEventListener("load", async function () {
+    let allData = await getData();
+    let container = []
+    allData?.map((project) => {
+        if (project.type == 'native') {
+            container.push(project)
+        }
+    })
+    displayProjects(container)
     displayReactProjects()
-    getData()
 })
 
 
-async function  getData (){
-    let data = await fetch('https://server-vert-tau.vercel.app/');
+async function getData() {
+    let data = await fetch('http://localhost:3000/projects');
     let result = await data.json();
     console.log(result);
+    return result
 }
+
+
+
 
