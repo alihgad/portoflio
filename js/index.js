@@ -183,7 +183,10 @@ function displayReactProjects() {
 
 
 
-
+window.addEventListener("load", async function () {
+    displayProjects(container)
+    displayReactProjects()
+})
 
 
 
