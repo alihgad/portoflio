@@ -1,108 +1,108 @@
 
-let container = [
-    {
-        link: "https://alihgad.github.io/kasper/",
-        image: "./imges/Kasper.png",
-        alt: "Kasper",
-        h4: "Kasper template",
-        tech: " html + css , responsive",
-        date: "oct-2022"
-    }
-    ,
-    {
-        link: "https://alihgad.github.io/Leon/",
-        image: "./imges/leon.png",
-        alt: "leon",
-        h4: "leon template",
-        tech: "native html + css , responsive",
-        date: "nov-2022"
-    },
-    {
-        link: "https://alihgad.github.io/mealify/",
-        image: "./imges/mealify.png",
-        alt: "mealify",
-        h4: "mealify template",
-        tech: "native html + css , responsive , dark mood",
-        date: "oct-2023"
-    },
-    {
-        link: "https://alihgad.github.io/DevFolio/",
-        image: "./imges/devfolio.png",
-        alt: "devfolio",
-        h4: "devfolio template",
-        tech: "html + css + bootstrap , responsive",
-        date: "nov-2023"
-    },
-    {
-        link: "https://alihgad.github.io/bezel/",
-        image: "./imges/bezel.png",
-        alt: "bezel",
-        h4: "bezel template",
-        tech: "html + css + bootstrap , responsive",
-        date: "nov-2023"
-    },
-    {
-        link: "https://alihgad.github.io/CRUDS/",
-        image: "./imges/cruds.png",
-        alt: "CRUDS",
-        h4: "CRUDS system",
-        tech: "html + css + bootstrap , JavaScript",
-        date: "Dec-2023"
-    },
-    {
-        link: "https://alihgad.github.io/bookmark/",
-        image: "./imges/bookmark.png",
-        alt: "bookmark",
-        h4: "bookmark system",
-        tech: "html + css + bootstrap , JavaScript",
-        date: "Dec-2023"
-    },
-    {
-        link: "https://alihgad.github.io/smartLogIn/",
-        image: "./imges/login.png",
-        alt: "smartLogIn",
-        h4: "LogIn system",
-        tech: "html + css + bootstrap , JavaScript",
-        date: "Dec-2023"
-    },
-    {
-        link: "https://alihgad.github.io/weather-App/",
-        image: "./imges/weather.png",
-        alt: "weather-App",
-        h4: "weather App",
-        tech: "html + css + bootstrap , JavaScript",
-        date: "Dec-2023"
-    },
-    {
-        link: "https://alihgad.github.io/ToDoList/",
-        image: "./imges/todolist.png",
-        alt: "ToDo list",
-        h4: "ToDo list",
-        tech: "html + css + bootstrap + sweetalert2 , JavaScript",
-        date: "Jan-2024"
-    },
-    {
-        link: "https://alihgad.github.io/Games/",
-        image: "./imges/games.png",
-        alt: "Games reviews",
-        h4: "Games reviews",
-        tech: "html + css + bootstrap  , JavaScript + API",
-        date: "Jan-2024"
-    },
-    {
-        link: "https://alihgad.github.io/party/",
-        image: "./imges/party.png",
-        alt: "Party Event",
-        h4: "Party Event",
-        tech: "html + css + bootstrap  , JavaScript + JQuery",
-        date: "Jan-2024"
-    }
-]
 
 
-async function displayProjects(container) {
 
+ function displayProjects() {
 
+    let container = [
+        {
+            link: "https://alihgad.github.io/kasper/",
+            image: "./imges/Kasper.png",
+            alt: "Kasper",
+            h4: "Kasper template",
+            tech: " html + css , responsive",
+            date: "oct-2022"
+        }
+        ,
+        {
+            link: "https://alihgad.github.io/Leon/",
+            image: "./imges/leon.png",
+            alt: "leon",
+            h4: "leon template",
+            tech: "native html + css , responsive",
+            date: "nov-2022"
+        },
+        {
+            link: "https://alihgad.github.io/mealify/",
+            image: "./imges/mealify.png",
+            alt: "mealify",
+            h4: "mealify template",
+            tech: "native html + css , responsive , dark mood",
+            date: "oct-2023"
+        },
+        {
+            link: "https://alihgad.github.io/DevFolio/",
+            image: "./imges/devfolio.png",
+            alt: "devfolio",
+            h4: "devfolio template",
+            tech: "html + css + bootstrap , responsive",
+            date: "nov-2023"
+        },
+        {
+            link: "https://alihgad.github.io/bezel/",
+            image: "./imges/bezel.png",
+            alt: "bezel",
+            h4: "bezel template",
+            tech: "html + css + bootstrap , responsive",
+            date: "nov-2023"
+        },
+        {
+            link: "https://alihgad.github.io/CRUDS/",
+            image: "./imges/cruds.png",
+            alt: "CRUDS",
+            h4: "CRUDS system",
+            tech: "html + css + bootstrap , JavaScript",
+            date: "Dec-2023"
+        },
+        {
+            link: "https://alihgad.github.io/bookmark/",
+            image: "./imges/bookmark.png",
+            alt: "bookmark",
+            h4: "bookmark system",
+            tech: "html + css + bootstrap , JavaScript",
+            date: "Dec-2023"
+        },
+        {
+            link: "https://alihgad.github.io/smartLogIn/",
+            image: "./imges/login.png",
+            alt: "smartLogIn",
+            h4: "LogIn system",
+            tech: "html + css + bootstrap , JavaScript",
+            date: "Dec-2023"
+        },
+        {
+            link: "https://alihgad.github.io/weather-App/",
+            image: "./imges/weather.png",
+            alt: "weather-App",
+            h4: "weather App",
+            tech: "html + css + bootstrap , JavaScript",
+            date: "Dec-2023"
+        },
+        {
+            link: "https://alihgad.github.io/ToDoList/",
+            image: "./imges/todolist.png",
+            alt: "ToDo list",
+            h4: "ToDo list",
+            tech: "html + css + bootstrap + sweetalert2 , JavaScript",
+            date: "Jan-2024"
+        },
+        {
+            link: "https://alihgad.github.io/Games/",
+            image: "./imges/games.png",
+            alt: "Games reviews",
+            h4: "Games reviews",
+            tech: "html + css + bootstrap  , JavaScript + API",
+            date: "Jan-2024"
+        },
+        {
+            link: "https://alihgad.github.io/party/",
+            image: "./imges/party.png",
+            alt: "Party Event",
+            h4: "Party Event",
+            tech: "html + css + bootstrap  , JavaScript + JQuery",
+            date: "Jan-2024"
+        }
+    ]
 
     let cartona = ""
     for (let i = container.length - 1; i >= 0; i--) {
@@ -183,8 +183,9 @@ function displayReactProjects() {
 
 
 
-window.addEventListener("load", async function () {
-    displayProjects(container)
+window.addEventListener("load",  function () {
+    
+    displayProjects()
     displayReactProjects()
 })
 
